@@ -1,0 +1,285 @@
+/* DEFAULT CHANGES */
+
+a{
+    text-decoration: none !important;
+}
+
+
+/* CUSTOM CHANGES */
+
+.nav__logo{
+    height: 40px;
+    width: auto;
+
+    margin-left: 6rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    flex-wrap: nowrap;
+    margin: 15px 0;
+    border-radius: 100px;
+    background: none !important;
+
+    border: none !important;
+}
+
+.card__image{
+    transition: .2s ease-in-out;
+    filter: brightness(0.8);
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 3px 18px -4px rgba(171,171,171,1);
+-moz-box-shadow: 0px 3px 18px -4px rgba(171,171,171,1);
+box-shadow: 0px 3px 18px -4px rgba(171,171,171,1);
+}
+
+.card__image:hover{
+    transition: .2s ease-in-out;
+    filter: none;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card__preco{
+    /* margin-top: .5rem; */
+
+    color: #00a202;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.card__preco__modo{
+    font-size: .8rem !important;
+    font-weight: 500;
+}
+
+.card__preco__valor{
+    font-size: 1.5rem !important;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.card__info {
+    margin-top: 1rem;
+}
+
+.card__tittle{
+    font-weight: 600 !important;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+.card__peca{
+    background-color: rgb(66, 66, 66);
+}
+
+.peca__text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.peca{
+    display: flex;
+    background-color: rgb(66, 66, 66);
+    height: 100%;
+}
+
+.peca__img{
+    width: 50%;
+    height: 500px;
+    padding: 50px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 30px;
+    display:  flex;
+}
+
+.body__peca{
+    background-color: rgb(66, 66, 66);
+}
+
+.peca__img-icone{
+    width: 70%;
+    margin: 0 15%;
+    border-radius: 15px;
+}
+
+.peca__text{
+    margin-top: 50px;
+}
+
+.peca__text h3{
+    color: red;
+}
+
+.peca__text h1{
+    color: green;
+    font-size: 24px;
+}
+
+.garantia{
+    display: inline;
+    color: red;
+}
+.garantia__texto{
+    color: white;
+    padding-right: 150px;
+    margin-top: 40px;
+}
+.parcelamento{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.parcelamento h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.botao__comprar{
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.botao__comprar-btn{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 18px;
+
+}
+
+
+/* OVERSCRIPT BOOTSTRAP */
+.collapse.navbar-collapse{
+    gap: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-right: 5.8rem;
+}
+
+.container{
+    margin-top: 3rem;
+}
+
+.navbar{
+    box-shadow: 0px 12px 13px -10px rgba(255, 0, 0, 0.5);
+-webkit-box-shadow: 0px 12px 13px -10px rgba(255, 0, 0, 0.5);
+}
+
+/* Carrinho */
+
+.carrinho__card{
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    background-color:rgba(162, 126, 126, 0.5) ;
+    margin: 15px 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.carrinho__link{
+    color: white;
+}
+
+.carrinho__card-titulo{
+    width: 70%;
+    text-align: center;
+    font-weight: 600 !important;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+}
+
+.carrinho__card-quantidade{
+    font-size: 1rem;
+    color: #fff;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.carrinho_card-img{
+    height: 110px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.carrinho__card-valor{
+    font-size: 1rem;
+    color: #fff;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.carrinho__soma{
+    background-color: green;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    margin-left: 75%;
+}
+
+.botao__qtd{
+    width: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrinho__card-qunatidade-botao{
+    display: flex;
+}
+.botao__comprar-qtd{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.botao__excluir{
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+.botao__excluir-icone{
+    color: red;
+    font-size: 22px;
+    background-color: grey;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
